@@ -15,6 +15,7 @@ body{
 
 
 .header h1{
+    padding-top: 1rem;
     color: #FECD23;
     font-weight: 600;
 }
@@ -40,8 +41,25 @@ body{
 
 .mid{
     background-image: linear-gradient(#541A5D,#210D24);
+}
+
+.firstrow{
+    display: flex;
+    flex-direction: column;
     
 }
+
+.firstrow input{
+    border-radius: 0.25rem;
+    border: none;
+    margin:0.5rem;
+    width: 80%;
+    align-self: center;
+    height: 32px;
+    line-height: normal;
+    
+}
+
 
 .footer{
     text-align: center;
