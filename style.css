@@ -7,6 +7,30 @@ body{
     color: #ffffff;
 }
 
+button{
+    background-color:#1D0C20 ;
+    color: #ffffff;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    width: 64%;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #541A5D;
+    transition: 0.5s ease-in-out;
+    
+}
+
+input:focus{
+    outline: none;
+   
+}
+
 .header{
   margin: 0.5rem;
   text-align: center;
@@ -57,10 +81,37 @@ body{
     align-self: center;
     height: 32px;
     line-height: normal;
+    font-size: 1rem;
+    font-weight: 400;
     
 }
 
+.secondrow{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
 
+.card-button{
+    background-image: linear-gradient(#2638DB,#342989);
+    border-radius: 0.5rem;
+    
+}
+
+.inside-cardButton{
+    padding: 0.5rem;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(#3E60EF,#72CBFE);
+    margin: 10px;
+    text-align: center;
+}
 .footer{
     text-align: center;
 }
