@@ -115,3 +115,33 @@ input:focus{
 .footer{
     text-align: center;
 }
+
+@media screen and (max-width:825px) {
+
+    html{
+        font-size: 14px;
+    }
+
+    button{
+        width: 56%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-size: 1.5rem;
+    }
+    .container{
+        width: 96%;
+    }
+
+    .firstrow{
+        text-align: center;
+    }
+    .secondrow{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-button{
+      margin: 1rem;
+    }
+}
